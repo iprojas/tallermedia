@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tallermedia/static/css/main.06b04e02.chunk.css",
+    "main.js": "/tallermedia/static/js/main.7b2424bc.chunk.js",
+    "main.js.map": "/tallermedia/static/js/main.7b2424bc.chunk.js.map",
+    "runtime-main.js": "/tallermedia/static/js/runtime-main.113d13ce.js",
+    "runtime-main.js.map": "/tallermedia/static/js/runtime-main.113d13ce.js.map",
+    "static/js/2.9fa1d778.chunk.js": "/tallermedia/static/js/2.9fa1d778.chunk.js",
+    "static/js/2.9fa1d778.chunk.js.map": "/tallermedia/static/js/2.9fa1d778.chunk.js.map",
+    "static/js/3.b1b598a2.chunk.js": "/tallermedia/static/js/3.b1b598a2.chunk.js",
+    "static/js/3.b1b598a2.chunk.js.map": "/tallermedia/static/js/3.b1b598a2.chunk.js.map",
+    "index.html": "/tallermedia/index.html",
+    "precache-manifest.e36e6b2df5345460af545df87dd894bc.js": "/tallermedia/precache-manifest.e36e6b2df5345460af545df87dd894bc.js",
+    "service-worker.js": "/tallermedia/service-worker.js",
+    "static/css/main.06b04e02.chunk.css.map": "/tallermedia/static/css/main.06b04e02.chunk.css.map",
+    "static/js/2.9fa1d778.chunk.js.LICENSE.txt": "/tallermedia/static/js/2.9fa1d778.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.113d13ce.js",
+    "static/js/2.9fa1d778.chunk.js",
+    "static/css/main.06b04e02.chunk.css",
+    "static/js/main.7b2424bc.chunk.js"
+  ]
+}
