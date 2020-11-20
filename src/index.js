@@ -22,7 +22,7 @@ function Loader() {
 function App(props) {
   const { scene = 1 } = props
   return (
-    <Canvas concurrent shadowMap camera={{ position: [0, 0, 5], fov: 70 }}>
+    <Canvas concurrent shadowMap camera={{ position: [0, 0, 3], fov: 80 }}>
       <color attach="background" args={['#000']} />
       <Suspense fallback={<Loader />}>
         {scene === 1 && <Scene1 />}
@@ -38,40 +38,18 @@ function Body() {
   return (
     <Router>
       <main>
-        <div className="frame">
-          <div className="frame__title-wrap">
-            <h1 className="frame__title">Awesome Mirror Effect</h1>
-            <p className="frame__tagline">A react-three-fiber based demo</p>
-          </div>
-          <div className="frame__links">
-            <a href="https://tympanus.net/Development/MenuFullGrid/">Previous demo</a>
-            <a href="https://tympanus.net/codrops/?p=51167">Article</a>
-            <a href="https://github.com/emmelleppi/codrops-r3f-mirrors">GitHub</a>
-          </div>
-          <div className="frame__demos">
-            <NavLink to="/panna" activeClassName="frame__demo--current" className="frame__demo">
-              PANNA
-            </NavLink>
-            <NavLink to="/olga" activeClassName="frame__demo--current" className="frame__demo">
-              OLGA
-            </NavLink>
-            <NavLink to="/pedro" activeClassName="frame__demo--current" className="frame__demo">
-              PEDRO
-            </NavLink>
-          </div>
-        </div>
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <Redirect to="/panna" />
+              <Redirect to="/programa" />
             </Route>
-            <Route exact path="/panna">
+            <Route exact path="/1">
               <App scene={1} />
             </Route>
-            <Route exact path="/olga">
+            <Route exact path="/2">
               <App scene={2} />
             </Route>
-            <Route exact path="/pedro">
+            <Route exact path="/programa">
               <App scene={3} />
             </Route>
           </Switch>

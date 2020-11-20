@@ -151,10 +151,12 @@ export default function Scene() {
           args={[0.1, 100, renderTarget]}
         />
 
-        <Title name="title" label="PEDRO" position={[0, 2, -10]} color={PEDRO_COLOR} />
-        <TitleCopies position={[0, 2, -5]} rotation={[0, 0, 0]} layers={[11]} label="PEDRO"  color={PEDRO_COLOR} />
+        <Title name="title" label="2021" position={[0, 2, -10]} color={PEDRO_COLOR} />
+        <TitleCopies position={[0, 2, -5]} rotation={[0, 0, 0]} layers={[11]} label="2021"  color={PEDRO_COLOR} />
 
-        <Title layers={[11]} name="title" label="CLICK HERE" position={[0, 2, 24]} scale={[-1, 1, 1]} color={CLICKHERE_COLOR} />
+        <Title layers={[11]} name="title" label="TALLER DE" position={[0, 8, 24]} scale={[-1, 1, 1]} color={CLICKHERE_COLOR} />
+        <Title layers={[11]} name="title" label="PROTOTIPOS" position={[0, 4, 24]} scale={[-1, 1, 1]} color={CLICKHERE_COLOR} />
+        <Title layers={[11]} name="title" label="MEDIALES" position={[0, 0, 24]} scale={[-1, 1, 1]} color={CLICKHERE_COLOR} />
 
         <Physics gravity={[0, -10, 0]}>
           <Mirrors envMap={renderTarget.texture} />
