@@ -1,6 +1,6 @@
 # Programa Taller de Prototipos Mediales
 
-## Credits
+## Creditos
 
 - [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
 - [three.js](https://threejs.org/)
