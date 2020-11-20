@@ -22,7 +22,7 @@ function Loader() {
 function App(props) {
   const { scene = 1 } = props
   return (
-    <Canvas concurrent shadowMap camera={{ position: [0, 0, 3], fov: 80 }}>
+    <Canvas concurrent shadowMap camera={{ position: [0, 0, 3], fov: 90 }}>
       <color attach="background" args={['#000']} />
       <Suspense fallback={<Loader />}>
         {scene === 1 && <Scene1 />}
